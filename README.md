@@ -1,4 +1,4 @@
-<h2>The Method Halite for Correlation Clustering</h2>
+# The Method Halite for Correlation Clustering
 
 <p>
     The algorithm Halite is a fast and scalable density-based clustering algorithm for moderate-to-high-dimensionality data able to analyze large collections of complex data elements. It creates a multi-dimensional grid all over the data space and counts the number of points lying at each hyper-cubic cell provided by the grid. A hyper-quad-tree-like structure, called the Counting-tree, is used to store the counts. The tree is thereafter submitted to a filtering process able to identify regions that are, in a statistical sense, denser than its neighboring regions regarding at least one dimension, which leads to the final clustering result. The algorithm is fast and it has linear or quasi-linear time and space complexity regarding both the data size and the dimensionality.
